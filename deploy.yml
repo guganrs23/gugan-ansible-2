@@ -22,7 +22,7 @@
 
     - name: Copy website index.html
       copy:
-        src: index.html
+        src: ../website/index.html
         dest: /var/www/html/index.html
         owner: www-data
         group: www-data
@@ -30,7 +30,7 @@
 
     - name: Copy website image
       copy:
-        src: image1.jpg
+        src: ../website/image1.jpg
         dest: /var/www/html/image1.jpg
         owner: www-data
         group: www-data
